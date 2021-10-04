@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <style>
+      * {
+        user-select: none;
+      }
+      .image-container {
+        width: 360px;
+        height: 180px;
+        overflow: hidden;
+        position: relative;
+      }
+      .image-container-button {
+        height: 40px;
+        background-color: white;
+        opacity: 0.5;
+        position: absolute;
+        top: calc(50% - 20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .previous-button {
+        left: 0;
+      }
+      .next-button {
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <a href="/">Vanilla Web</a>
+    </h1>
+    <h2>Image Slider</h2>
+    <p>
+      Source Code for this project can be found
+      <a
+        target="_blank"
+        href="https://github.com/akulsr0/vanilla-web/tree/main/image-slider"
+        >here</a
+      >
+    </p>
+    <hr />
+    <div class="image-container">
+      <div class="image-container-button previous-button">&lt;</div>
+      <div class="image-container-button next-button">&gt;</div>
+    </div>
+  </body>
+  <script src="/image-slider/main.js"></script>
+</html>
