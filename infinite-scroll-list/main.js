@@ -1,4 +1,4 @@
-const usersList = documentgetElementById("users-list"); // Users List - HTMLElement
+const usersList = document.getElementById("users-list"); // Users List - HTMLElement
 let isListUpdating = false; // Flag to not call API if it is already being called.
 
 /**
