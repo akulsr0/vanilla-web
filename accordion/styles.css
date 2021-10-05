@@ -1,0 +1,33 @@
+* {
+  user-select: none;
+}
+.accordion-tab {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.accordion-tab * {
+  margin: 0;
+  padding: 0;
+}
+.accordion-tab > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.accordion-tab > section {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+.accordion-tab:last-of-type > section {
+  border-bottom: 1px solid black;
+}
