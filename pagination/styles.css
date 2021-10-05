@@ -1,0 +1,38 @@
+#page-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-action button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+#page-action-goto input {
+  width: 50px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f3f3f3;
+}
+.user-card div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.user-card div:nth-child(1) > img {
+  border-radius: 100px;
+}
+.user-card div:nth-child(2) {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.user-card div:nth-child(2) > span {
+  margin-top: 4px;
+}

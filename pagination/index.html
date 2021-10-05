@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link rel="stylesheet" href="/pagination/styles.css" />
+  </head>
+  <body>
+    <h1>
+      <a href="/">Vanilla Web</a>
+    </h1>
+    <h2>Pagination</h2>
+    <p>
+      Source Code for this project can be found
+      <a
+        target="_blank"
+        href="https://github.com/akulsr0/vanilla-web/tree/main/pagination"
+        >here</a
+      >
+    </p>
+    <hr />
+    <h3 id="page-number">Page: <span></span></h3>
+    <div id="pagination-wrapper">
+      <div id="user-card-wrapper"></div>
+      <div id="page-action">
+        <div>
+          <strong>Page:</strong>
+          <span></span>
+        </div>
+        <div id="page-action-goto">
+          <input type="number" placeholder="Page No." />
+          <button>Goto</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/pagination/main.js"></script>
+</html>
