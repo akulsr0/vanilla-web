@@ -1,0 +1,44 @@
+label {
+  font-weight: bold;
+}
+button {
+  cursor: pointer;
+  margin-top: 20px;
+}
+.alert {
+  position: fixed;
+  width: 300px;
+  background-color: green;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.alert * {
+  padding: 0;
+  margin: 0;
+}
+.alert span {
+  cursor: pointer;
+  margin-left: 20px;
+}
+.alert-left {
+  left: 10px;
+}
+.alert-top {
+  top: 10px;
+}
+.alert-right {
+  right: 10px;
+}
+.alert-bottom {
+  bottom: 10px;
+}
+.alert-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

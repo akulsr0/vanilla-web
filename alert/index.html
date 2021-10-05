@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert</title>
+    <link rel="stylesheet" href="/alert/styles.css" />
+  </head>
+  <body>
+    <h1>
+      <a href="/">Vanilla Web</a>
+    </h1>
+    <h2>Alert</h2>
+    <p>
+      Source Code for this project can be found
+      <a
+        target="_blank"
+        href="https://github.com/akulsr0/vanilla-web/tree/main/alert"
+        >here</a
+      >
+    </p>
+    <hr />
+    <h3>Customize your alert</h3>
+    <!-- Alert Text Input -->
+    <div>
+      <label for="alert-text">Text:</label>
+      <input id="alert-text" type="text" value="This is an alert message." />
+    </div>
+    <br />
+    <!-- Alert Theme Input -->
+    <div>
+      <label for="alert-theme">Theme:</label>
+      <select id="alert-theme">
+        <option value="lightgrey">White-ish</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </div>
+    <br />
+    <!-- Alert Position Input -->
+    <div>
+      <label for="alert-position">Position:</label>
+      <select id="alert-position">
+        <option value="top left">Top Left</option>
+        <option value="top right">Top Right</option>
+        <option value="center" selected>Center</option>
+        <option value="bottom left">Bottom Left</option>
+        <option value="bottom right">Bottom Right</option>
+      </select>
+    </div>
+    <br />
+    <!-- Alert Timeout Input -->
+    <div>
+      <label for="alert-timeout">Timeout:</label>
+      <input id="alert-timeout" type="number" min="3" max="10" value="3" />
+    </div>
+    <div>
+      <button id="show-alert">Show Alert</button>
+    </div>
+    <!-- Alert -->
+    <div class="alert">
+      <p>This is an sample alert.</p>
+      <span>
+        <img
+          width="14"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Black_x.svg"
+          alt="cross-alert"
+        />
+      </span>
+    </div>
+  </body>
+  <script src="/alert/main.js"></script>
+</html>
