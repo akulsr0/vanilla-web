@@ -1,0 +1,14 @@
+#content {
+  background-color: #f3f3f3;
+  height: 300px;
+  padding: 10px;
+  overflow: scroll;
+  word-spacing: 4px;
+  line-height: 24px;
+}
+.progress-bar {
+  height: 4px;
+  background-color: black;
+  width: 0px;
+  z-index: 999;
+}
