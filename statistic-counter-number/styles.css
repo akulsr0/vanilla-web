@@ -1,0 +1,10 @@
+.number-wrapper {
+  width: 340px;
+}
+
+#number {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
