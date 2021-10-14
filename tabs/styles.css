@@ -1,0 +1,32 @@
+#tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+#tabs {
+  display: flex;
+  flex-direction: row;
+}
+.tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid #bdc3c7;
+}
+.tab:hover {
+  cursor: pointer;
+}
+.tab-active {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+#tab-content > div {
+  padding: 10px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
