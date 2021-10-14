@@ -1,0 +1,23 @@
+.wrapper {
+  border: 1px solid black;
+  height: 260px;
+  overflow: scroll;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper header {
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: larger;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+.wrapper article {
+  padding: 10px 10px;
+  line-height: 1.5rem;
+  text-align: justify;
+}
