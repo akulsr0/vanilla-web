@@ -1,0 +1,57 @@
+section * {
+  margin: 0;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 0 4px;
+  align-items: center;
+}
+.user-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+}
+.user-image img {
+  width: inherit;
+  border-radius: 100px;
+}
+.card > div {
+  flex: 1;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card > div > h3 {
+  min-height: 20px;
+  max-width: 220px;
+}
+.user-details {
+  margin-top: 4px;
+}
+.user-details > div {
+  display: flex;
+  margin-top: 2px;
+  max-width: 220px;
+}
+.user-details > div > span {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.loading {
+  animation: loadingAnim 2s ease-in-out 0s infinite reverse;
+  background-color: #ced6e0;
+}
+@keyframes loadingAnim {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
