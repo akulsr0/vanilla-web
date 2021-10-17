@@ -1,0 +1,9 @@
+.container {
+  height: 260px;
+  overflow: scroll;
+  padding: 10px;
+  border: 2px solid black;
+}
+#images-wrapper img {
+  display: none;
+}
