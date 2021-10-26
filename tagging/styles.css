@@ -1,0 +1,38 @@
+#box {
+  max-width: 360px;
+  height: 250px;
+  background-image: url(https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  border: 1px solid black;
+  position: relative;
+}
+
+#box:hover {
+  cursor: pointer;
+}
+
+#box:hover .tag {
+  display: block;
+}
+
+#box-input {
+  max-width: 80px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #444;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+#box-input input:focus {
+  border: none;
+}
+
+.tag {
+  display: none;
+  background-color: #444;
+  color: white;
+  padding: 4px;
+  position: absolute;
+}
