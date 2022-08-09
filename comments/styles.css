@@ -1,0 +1,45 @@
+.post {
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  padding-top: 0;
+  border-radius: 0.2rem;
+}
+
+.post .comments-input-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.post .comments-input-wrapper input {
+  flex: 1;
+  padding: 0.2rem 0.4rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.comment {
+  background-color: #f9f9f9;
+  margin-top: 1rem;
+  padding: 0.6rem 0.4rem;
+  border-left: 0.2rem solid #ccc;
+}
+
+.comment p {
+  margin: 0;
+  margin-top: 0.4rem;
+}
+
+.comment-replies {
+  padding-left: 1rem;
+}
+
+.comment-reply {
+  margin-top: 0.8rem;
+}
+
+.comment .comment-action-bar {
+  margin-top: 0.6rem;
+}
