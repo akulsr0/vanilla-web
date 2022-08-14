@@ -1,0 +1,41 @@
+.bottom-bar {
+  height: 60px;
+  margin-top: 1rem;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+.bottom-bar span {
+  background-color: #fafafa;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.bottom-bar span:hover {
+  background-color: #fcfcfc;
+  border: 1px solid #333;
+}
+
+.bottom-bar span:nth-child(1):hover::after {
+  content: "home";
+  margin-left: 1rem;
+}
+.bottom-bar span:nth-child(2):hover::after {
+  content: "search";
+  margin-left: 1rem;
+}
+.bottom-bar span:nth-child(3):hover::after {
+  content: "notifications";
+  margin-left: 1rem;
+}
+.bottom-bar span:nth-child(4):hover::after {
+  content: "settings";
+  margin-left: 1rem;
+}
