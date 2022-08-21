@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  gap: 1rem;
+  scroll-snap-type: x proximity;
+}
+
+.container .card {
+  min-width: 80%;
+  scroll-snap-align: center;
+}
+
+.container .card img {
+  width: 100%;
+}
